@@ -56,5 +56,82 @@
 }
 
 #jumbotron h1 {
-  font-size: 4.3em;
+  font-size: 4em;
+}
+
+/* regole portfolio */
+
+#portfolio {
+  text-align: center;
+  color: #2c3e50;
+}
+
+#portfolio h2 {
+  font-size: 3em;
+}
+
+#portfolio img {
+  max-width: 90%;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* regole about */
+
+#about {
+  background-color: #00bca5;
+  color: white;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 3em;
+}
+
+#about [class*="col-"] > p {
+  text-align: left;
+  font-size: 1.25em;
+  margin: 30px;
+}
+
+#about div:last-child {
+  padding-bottom: 10px;
+}
+
+#about a {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Regole contact me */
+
+#contactme {
+  color: #2c3e50;
+}
+#contactme h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+#contactme .ghirigoro {
+  text-align: center;
+}
+#contactme button {
+  text-align: left;
+  background-color: #00bca5;
+  color: white;
+}
+
+#contactme label {
+  text-align:  left;
+}
+#inputname1, #inputEmail3, #inputtel3, #inputtextarea3 {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0;
 }
