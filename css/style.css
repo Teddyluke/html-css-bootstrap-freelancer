@@ -156,6 +156,11 @@
   font-size: 1.25em;
 }
 
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
 #footer i {
   font-size: 2em;
   padding-right: 10px;
@@ -166,4 +171,15 @@
   color: white;
   text-align: center;
   padding: 20px;
+}
+
+/* hoover ed effetti grafici */
+
+#about a:hover {
+  background-color: white;
+  color: #00bca5;
+}
+
+#footer a:hover {
+  color: #00bca5;
 }
