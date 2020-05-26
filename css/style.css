@@ -129,9 +129,41 @@
 #contactme label {
   text-align:  left;
 }
+
 #inputname1, #inputEmail3, #inputtel3, #inputtextarea3 {
   border: none;
   box-shadow: none;
   border-bottom: 1px solid lightgray;
   border-radius: 0;
+}
+
+
+/*  regole footer */
+
+#footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+}
+#footer div {
+  padding: 15px;
+}
+#footer h3 {
+  font-size: 2em;
+}
+
+#footer p {
+  font-size: 1.25em;
+}
+
+#footer i {
+  font-size: 2em;
+  padding-right: 10px;
+}
+
+#copyright {
+  background-color: #1A252F;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
