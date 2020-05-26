@@ -5,116 +5,146 @@
     <title>Bootstrap freelancer</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d4368e456d.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
+
   <body>
-    <header>
-        <div class="container">
-          <!-- navbar -->
-          <div class="row">
-            <div class="col-xs-6">
-              Start bootstrap
-            </div>
-            <div class="col-xs-6">
-              navbar destra
-            </div>
-          </div>
-          <!-- jumbotron -->
+    <div class="container-fluid">
+      <header>
+        <!-- navbar -->
+        <section id="navbar">
           <div class="row">
             <div class="col-xs-12">
-              Jumbotron con img e dettagli
+              <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                  </div>
+
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
             </div>
           </div>
-        </div>
-    </header>
+        </section>
 
-    <main>
-      <div class="container">
-        <!-- titolo: portfolio -->
-        <div class="row">
-          <div class="col-xs-12">
-            Portfolio
-          </div>
-          <div class="col-xs-12">
-            ------ + ------
-          </div>
-        </div>
-        <!-- 6 tastoni colorati -->
-        <div class="row">
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            casetta di legno
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            fettina di torta
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            tendone da circo
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            joypad
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            cassaforte
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            yellow submarine, yellow submarine
-          </div>
-        </div>
-        <!-- about -->
-        <div class="row">
-          <div class="col-xs-12">
-            About
-          </div>
-          <div class="col-xs-12">
-            -----+-----
-          </div>
-          <div class="col-xs-12 col-md-6">
-            paragrafo sx
-          </div>
-          <div class="col-xs-12 col-md-6">
-            paragrafo dx
-          </div>
-          <div class="col-xs-12">
-            download
-          </div>
-        </div>
-        <!-- Contact me -->
-        <div class="row">
-          <div class="col-xs-12">
-            Contact me
-          </div>
-          <div class="col-xs-12">
-            -----+-----
-          </div>
-          <div class="col-xs-12">
-            Form
-          </div>
-        </div>
-      </div>
-    </main>
+          <!-- jumbotron -->
+          <section id="jumbotron">
+            <div class="row">
+              <div class="col-xs-12">
+                <img src="img/avatars.svg" alt="faccina">
+                <h1>START BOOTSTRAP</h1>
+                <div class="">
+                  ------+------
+                </div>
+                <h3>Graphic Artist - Web Designer - Illustrator </h3>
+              </div>
+            </div>
+          </section>
+      </header>
 
-    <footer>
-      <!-- location, around the web, about freelancer -->
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-4">
-            Location
+      <main>
+          <!-- titolo: portfolio -->
+          <div class="row">
+            <div class="col-xs-12">
+              Portfolio
+            </div>
+            <div class="col-xs-12">
+              ------ + ------
+            </div>
           </div>
-          <div class="col-xs-12 col-md-4">
-            Around the web
+          <!-- 6 tastoni colorati -->
+          <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              casetta di legno
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              fettina di torta
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              tendone da circo
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              joypad
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              cassaforte
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              yellow submarine, yellow submarine
+            </div>
           </div>
-          <div class="col-xs-12 col-md-4">
-            About freelancer
+          <!-- about -->
+          <div class="row">
+            <div class="col-xs-12">
+              About
+            </div>
+            <div class="col-xs-12">
+              -----+-----
+            </div>
+            <div class="col-xs-12 col-md-6">
+              paragrafo sx
+            </div>
+            <div class="col-xs-12 col-md-6">
+              paragrafo dx
+            </div>
+            <div class="col-xs-12">
+              download
+            </div>
           </div>
-        </div>
-        <!-- copyright -->
-        <div class="row">
-          <div class="col-xs-12">
-            powered by me
+          <!-- Contact me -->
+          <div class="row">
+            <div class="col-xs-12">
+              Contact me
+            </div>
+            <div class="col-xs-12">
+              -----+-----
+            </div>
+            <div class="col-xs-12">
+              Form
+            </div>
           </div>
-        </div>
-      </div>
+      </main>
 
-    </footer>
+      <footer>
+        <!-- location, around the web, about freelancer -->
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              Location
+            </div>
+            <div class="col-xs-12 col-md-4">
+              Around the web
+            </div>
+            <div class="col-xs-12 col-md-4">
+              About freelancer
+            </div>
+          </div>
+          <!-- copyright -->
+          <div class="row">
+            <div class="col-xs-12">
+              powered by me
+            </div>
+          </div>
+
+      </footer>
+
+    </div>
   </body>
 </html>
