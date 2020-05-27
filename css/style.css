@@ -66,14 +66,17 @@
   color: #2c3e50;
 }
 
+#portfolio [class*="col-"] {
+  margin: 30px 0 30px 0;
+}
+
 #portfolio h2 {
   font-size: 3em;
 }
 
 #portfolio img {
-  max-width: 90%;
+  max-width: 100%;
   border-radius: 10px;
-  margin: 20px;
 }
 
 /* regole about */
@@ -174,6 +177,7 @@
 }
 
 /* hoover ed effetti grafici */
+
 
 #about a:hover {
   background-color: white;
