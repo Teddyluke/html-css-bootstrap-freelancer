@@ -189,25 +189,39 @@
 }
 
 
-
-/* test hover portfolio */
+/*hover portfolio */
 
 .relative {
   position: relative;
+  text-align: center;
 }
 
 .sfondoverde {
   background-color: rgba(0, 188, 165, 0.8);
-  color: white;
   position: absolute;
   width: 100%;
   height: 100%;
-  font-size: 10em;
   border-radius: 10px;
-  text-align: center;
+  display: none;
+}
+
+.crocebianca {
+  position: absolute;
+  color: white;
+  font-size: 10em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
   display: none;
 }
 
 .relative:hover .sfondoverde {
   display: block;
+  cursor: pointer;
+}
+
+.relative:hover .crocebianca {
+  display: block;
+  cursor: pointer;
+
 }
