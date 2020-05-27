@@ -187,3 +187,27 @@
 #footer a:hover {
   color: #00bca5;
 }
+
+
+
+/* test hover portfolio */
+
+.relative {
+  position: relative;
+}
+
+.sfondoverde {
+  background-color: rgba(0, 188, 165, 0.8);
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 10em;
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+}
+
+.relative:hover .sfondoverde {
+  display: block;
+}
